@@ -7,14 +7,13 @@
 %define		pnam	Address-List
 Summary:	Email::Address-List - RFC close address list parsing
 Name:		perl-Email-Address-List
-Version:	0.03
+Version:	0.05
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-# Source0:	http://search.cpan.org/CPAN/authors/id/R/RU/RUZ/%{pdir}-%{pnam}-%{version}.tar.gz
-Source0:	http://download.bestpractical.com/mirror/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	7517a7c4ba8a8008ecc5642003c2a184
+Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	0b723b59596f9dd998c35b0eb89cc935
 URL:		http://search.cpan.org/dist/Email-Address-List/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
